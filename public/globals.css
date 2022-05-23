@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+:root {
+    --title: bold 24px/34px 'Roboto', monospace;
+    --title-sm: bold 16px/20px 'Roboto';
+    --subtitle: 400 12px/13px 'Roboto';
+    --text: 400 16px/21px 'Roboto';
+    --guide: italic 500 16px/22px 'Roboto';
+    --guide-bold: italic bold 16px/22px 'Roboto';
+    --primary-black: #252729;
+    --primary-black-gray: #5f646c;
+    --primary-soft-gray: #a3a7ae;
+    --primary-white: #fafafa;
+    --secundary-soft-gray: #bcbcbc;
+    --secundary-black-gray: #77797d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
